@@ -1,0 +1,64 @@
+.music-classification{
+    letter-spacing: 3px;
+    background-color: rgb(159, 162, 165);
+    margin-bottom: 50px;
+}
+
+span{
+    cursor:pointer;
+}
+
+.header{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading1{
+    width:120px;
+    background-color: aliceblue;
+}
+
+.img-heading{
+    margin-bottom: 50px;
+    display:flex;
+    justify-content: center;
+    cursor:pointer;
+}
+
+.search-bar{
+    width:300px;
+    height: 20px;
+    border-bottom-right-radius:3px ;
+    border-top-right-radius:3px ;
+}
+
+.search-bar::placeholder{
+    font-family: Roboto, Arial;
+    padding-left: 10px;
+}
+
+.button{
+    height: 26px;
+    cursor:pointer;
+    background-color: rgb(159, 162, 165);
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.search{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1{
+    letter-spacing: 5px;
+    background-color: rgb(159, 162, 165);
+    color: rgb(29, 97, 97);
+    width:100%;
+}
